@@ -2,7 +2,7 @@ import Header from './components/Header'
 import GifDisplay from './components/GifDisplay'
 import Main from './components/Main'
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
 
       <Main randoGif={getGiph}/>
 
-      <Footer/>
+      <GifDisplay gifUrl={gifUrl}/>
       
     </div>
   );
