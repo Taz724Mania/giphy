@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <h1>Giphy</h1>
+        <h1>Gifs</h1>
     )
 }
 
